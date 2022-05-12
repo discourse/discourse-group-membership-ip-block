@@ -3,6 +3,7 @@
 # version: 0.1
 # authors: Falco
 # url: https://github.com/discourse/discourse-group-membership-ip-block
+# transpile_js: true
 
 enabled_site_setting :group_membership_ip_block_enabled
 register_asset 'stylesheets/group-settings.scss'
