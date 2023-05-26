@@ -1,2 +1,0 @@
-2023-05-26T18:06:56.776Z [warn] WARNING: {{i18n}} was not converted as it has positional parameters which can't be automatically converted. Source: assets/javascripts/discourse/connectors/group-edit/field-container.hbs
-2023-05-26T18:06:56.777Z [warn] WARNING: {{i18n}} was not converted as it has positional parameters which can't be automatically converted. Source: assets/javascripts/discourse/connectors/group-edit/field-container.hbs
