@@ -3,7 +3,7 @@ import { withPluginApi } from "discourse/lib/plugin-api";
 export default {
   name: "group-custom-field",
   initialize() {
-    withPluginApi("0.8.30", (api) => {
+    withPluginApi((api) => {
       api.modifyClass("model:group", {
         pluginId: "discourse-group-membership-ip-block",
 
