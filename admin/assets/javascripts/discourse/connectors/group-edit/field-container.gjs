@@ -1,7 +1,8 @@
+/* eslint-disable ember/no-classic-components, ember/require-tagless-components */
 import Component from "@ember/component";
 import { classNames, tagName } from "@ember-decorators/component";
+import ValueList from "discourse/admin/components/value-list";
 import { i18n } from "discourse-i18n";
-import ValueList from "admin/components/value-list";
 
 @tagName("div")
 @classNames("group-edit-outlet", "field-container")
