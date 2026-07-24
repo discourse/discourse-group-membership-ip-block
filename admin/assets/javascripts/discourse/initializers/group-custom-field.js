@@ -4,16 +4,10 @@ export default {
   name: "group-custom-field",
   initialize() {
     withPluginApi((api) => {
-      api.modifyClass("model:group", {
-        pluginId: "discourse-group-membership-ip-block",
-
-        custom_fields: {},
-        asJSON() {
-          return Object.assign(this._super(), {
-            custom_fields: this.custom_fields,
-          });
-        },
+      api.addModelField("group", "custom_fields", {
+        defaultValue: () => ({}),
       });
+      api.addModelSaveProperty("group", "custom_fields");
     });
   },
 };
